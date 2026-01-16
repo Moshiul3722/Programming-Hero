@@ -1,13 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+:root {
+  --main-font: "Roboto", sans-serif;
+}
+
+body {
+  font-family: var(--main-font);
+}
+
 .container {
   width: 70%;
   margin: 0 auto;
 }
+
 .starting-info {
   margin: 50px 0px;
   display: flex;
@@ -16,4 +27,21 @@
 
 .starting-content {
   text-align: right;
+}
+
+.git-repo {
+  width: 30%;
+  margin: 0 auto;
+}
+
+.title {
+  text-align: center;
+  margin: 50px 0px 20px 0px;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px 10px;
 }
