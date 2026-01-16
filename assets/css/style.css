@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+.starting-info {
+  margin: 50px 0px;
+  display: flex;
+  gap: 20px;
+}
+
+.starting-content {
+  text-align: right;
+}
